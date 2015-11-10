@@ -2,7 +2,7 @@
 title: Jekyll and Reveal.js
 
 # The Reveal theme
-reveal_theme: black.css
+reveal_theme: simple.css
 
 # The Reveal transition
 reveal_transition: default
@@ -24,6 +24,6 @@ reveal_path: reveal.js/
 
 # Don't change anything below
 markdown: redcarpet
-pygments: true
+highlighter: true
 markdown_ext: ignoreme
 
