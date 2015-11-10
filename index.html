@@ -5,7 +5,7 @@ title: Deis Presentations
 <ul>
   {% for post in site.posts reversed %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.author }}
+      <a href="{{site.project_name}}/{{ post.url }}">{{ post.title }}</a> - {{ post.author }}
     </li>
   {% endfor %}
 </ul>

@@ -24,3 +24,5 @@ markdown: redcarpet
 highlighter: pygments
 markdown_ext: ignoreme
 
+project_name: "presentations"
+
