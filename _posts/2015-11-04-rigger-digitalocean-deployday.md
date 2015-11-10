@@ -1,3 +1,8 @@
+---
+title: "Ramping up with Rigger: Deploying Deis on DigitalOcean"
+layout: reveal
+author: Seth Goings
+---
 <img src="/assets/img/DeisLogo.png" class="stretched" style="border:none;background:none;box-shadow:0 0 0"/>
 
 Seth Goings / [@sethgoings](http://twitter.com/sethgoings)

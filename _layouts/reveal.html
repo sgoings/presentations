@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>{{ site.title }}</title>
+		<title>{{ post.title }}</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -36,9 +36,14 @@
 
             <div class="slides">
 
-                {{ content }}
+<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:">
+<script type="text/template">
 
-            </div>
+{{ content }}
+
+</script>
+</section>
+						</div>
 
 		</div>
 
