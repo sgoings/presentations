@@ -1,6 +1,6 @@
 # presentations
 
-Collection of presentations given by the Deis team using:
+Collection of presentations using:
 
 - [Markdown][] for less markup
 - [Reveal.js][] for presentations
@@ -8,15 +8,24 @@ Collection of presentations given by the Deis team using:
 
 ## Getting Started
 
-1. [install Jekyll][]. After that, clone this repository:
+1. When cloning this repository, make sure you grab the git submodules:
 
-        git clone --recursive https://github.com/sgoings/presentations.git
+        git clone --recursive ${REPO_URL}
 
-2. add your presentation into the *_posts* subdirectory with the common Jekyll
+    or
+
+        git clone ${REPO_URL}
+        git submodule update --init --recursive
+
+2. Make sure you have [rbenv][]. Because it makes your life easier. :simple_smile:
+
+        gem install bundler
+        bundle install
+        make serve # you can now view existing presentations
+
+3. add your presentation into the *_posts* subdirectory with the common Jekyll
 naming scheme
-3. start writing in Markdown. You can preview your post via:
-
-        make serve
+4. start writing in Markdown!
 
 ## Configuring the presentations
 
@@ -102,4 +111,5 @@ jekyll-reveal.js is configured, so that speaker notes are identified after an in
 [install Jekyll]: http://jekyllrb.com/docs/installation/  
 [options]: https://github.com/hakimel/reveal.js#configuration
 [depedencies]: https://github.com/hakimel/reveal.js#dependencies
+[rbenv]: https://github.com/sstephenson/rbenv
 
