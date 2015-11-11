@@ -3,13 +3,13 @@ title: "Ramping up with Rigger: Deploying Deis on DigitalOcean"
 layout: reveal
 author: Seth Goings
 ---
-<img src="/presentations/assets/img/DeisLogo.png" class="stretched" style="border:none;background:none;box-shadow:0 0 0"/>
+<img src="{{ site.baseurl }}/assets/img/DeisLogo.png" class="stretched" style="border:none;background:none;box-shadow:0 0 0"/>
 
 Seth Goings / [@sethgoings](http://twitter.com/sethgoings)
 
 ---
 
-<img src="/presentations/assets/img/people/sgoings/sgoings-backhoe.jpg" class="stretched" style="border:none;background:none;"/>
+<img src="{{ site.baseurl }}/assets/img/people/sgoings/sgoings-backhoe.jpg" class="stretched" style="border:none;background:none;"/>
 
 ---
 
@@ -88,7 +88,7 @@ git push deis master
 ## Thanks
 
 * [twitter.com/sethgoings](http://twitter.com/sethgoings)
-* [github.com/sethgoings](http://github.com/sethgoings)
+* [github.com/sgoings](http://github.com/sgoings)
 * sgoings@deis.com
 
 ---

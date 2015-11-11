@@ -23,3 +23,5 @@ reveal_path: /reveal.js/
 markdown: redcarpet
 highlighter: pygments
 markdown_ext: ignoreme
+
+baseurl: /presentations
